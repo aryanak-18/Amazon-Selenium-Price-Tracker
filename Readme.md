@@ -1,4 +1,4 @@
-# Amazon Price Tracker
+# Amazon Selenium Price Tracker
 
 ## Overview
 This project is an Amazon price tracker built using Next.js and Selenium in Python. It allows users to track the prices of their favorite products on Amazon.
