@@ -4,9 +4,10 @@ from notifypy import Notify
 from bs4 import BeautifulSoup
 from datetime import datetime
 from pymongo import MongoClient
+from envFile import mongoLink
 import os
 
-client = MongoClient("mongodb+srv://aryan:aryan@cluster0.3kemdsv.mongodb.net/")
+client = MongoClient(f"{mongoLink}")
 db = client["amazon"]
 collection = db["prices"]
 

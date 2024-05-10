@@ -4,7 +4,7 @@ import DisplayChart from "../components/DisplayChart";
 import { MongoClient } from "mongodb";
 
 //Connection URL
-const url = "mongodb+srv://aryan:aryan@cluster0.3kemdsv.mongodb.net/";
+const url = `${process.env.mongoLink}`;
 const client = new MongoClient(url);
 
 //Database Name

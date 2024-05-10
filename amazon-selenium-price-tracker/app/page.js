@@ -4,7 +4,7 @@ import { MongoClient } from "mongodb";
 import Link from "next/link";
 
 //Connection URL
-const url = "mongodb+srv://aryan:aryan@cluster0.3kemdsv.mongodb.net/";
+const url = `${process.env.mongoLink}`;
 const client = new MongoClient(url);
 
 //Database Name
