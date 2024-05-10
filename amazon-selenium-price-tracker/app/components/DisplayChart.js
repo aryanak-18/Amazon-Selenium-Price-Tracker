@@ -1,12 +1,12 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import { Chart } from "react-charts";
 
 const DisplayChart = ({data}) => {
 
-    useEffect(()=>{
-        console.log(data)
-    },[]);
+    // useEffect(()=>{
+    //     console.log(data)
+    // },[]);
 
   const primaryAxis = React.useMemo(
     () => ({
